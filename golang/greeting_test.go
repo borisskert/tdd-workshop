@@ -1,9 +1,10 @@
 package tdd_test
 
 import (
+	"tdd"
+
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"tdd"
 )
 
 var _ = Describe("Greeting", func() {

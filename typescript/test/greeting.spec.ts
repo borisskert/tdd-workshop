@@ -1,5 +1,5 @@
 import {assert} from 'chai'
-import {greeting} from "../src/greeting";
+import {greeting} from "../src/greeting.ts";
 
 describe('Greeting', function () {
     it('should return Hello World', function () {
